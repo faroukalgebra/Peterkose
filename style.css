@@ -1,0 +1,235 @@
+.header-content {
+  background-image: url(https://images.pexels.com/photos/239581/pexels-photo-239581.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 625px;
+  color: #fff;
+}
+img.header-img {
+  margin-bottom: 0px;
+  position: relative;
+  left: 30em;
+  width: 15%;
+}
+.header-content h1 {
+  padding-top: 1em;
+  margin-bottom: 0px;
+  font-family: "Indie Flower", cursive;
+  font-size: 16em;
+}
+.header-content h4 {
+  font-family: "Indie Flower", cursive;
+  padding-top: 0px;
+  font-size: 3em;
+}
+.animated {
+  padding-top: 95px;
+  margin-top: 0;
+  margin-bottom: 60px;
+  animation-duration: 4s;
+  animation-fill-mode: both;
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+.navbar {
+  border: none;
+}
+.navbar-brand {
+  font-size: 2em;
+}
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-70%);
+}
+.navbar-left li,
+.navbar-right li {
+  font-size: 1.2em;
+  margin-right: 1em;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover {
+  color: lightcoral;
+}
+.navbar-left {
+  margin-left: 14em;
+}
+.navbar-right {
+  margin-right: 16em;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: #ccc;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 5em;
+}
+div.sidenav a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: black;
+  display: block;
+}
+.sidenav a:hover {
+  color: indianred;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 3em;
+  margin-left: 1em;
+}
+.deliBox {
+  background-image: url(https://images.pexels.com/photos/616412/pexels-photo-616412.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20em;
+  height: 700px;
+  box-shadow: 3px 19px 46px -14px rgba(214, 214, 214, 1);
+}
+.subDeliBox {
+  padding-top: 20px;
+}
+.input-group {
+  width: 45em;
+}
+.subDeliBox button {
+  background-color: indianred;
+  color: #fff;
+}
+.meals {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  box-shadow: 3px 19px 46px -14px rgba(214, 214, 214, 1);
+}
+.thumbnail > img {
+  max-height: 200px;
+}
+.meals > .row > .col-md-4 a {
+  text-decoration: none;
+}
+.aboutUs {
+  padding-top: 3em;
+  padding-bottom: 4em;
+  color: #111;
+}
+footer {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  background-color: #111;
+
+  color: #ccc;
+}
+.footer-head h3 {
+  font-size: 2.5em;
+}
+.social-icons a i {
+  margin-right: 0.5em;
+}
+.fa {
+  padding: 1em;
+  font-size: 2px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.grey,
+.grey:hover {
+  color: #ccc;
+  line-height: 3em;
+}
+hr {
+  width: 65em;
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .header-content h1 {
+    font-size: 12em;
+  }
+  img.header-img {
+    left: 27em;
+  }
+  .navbar-left {
+    margin-left: 10em;
+  }
+  .navbar-right {
+    margin-right: 12em;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .header-content h1 {
+    font-size: 10em;
+  }
+  img.header-img {
+    left: 20em;
+  }
+  .input-group {
+    width: 35em;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .header-content h1 {
+    font-size: 5em;
+  }
+  .header-content h4 {
+    font-size: 1.5em;
+  }
+  img.header-img {
+    left: 11em;
+  }
+  .input-group {
+    width: 23em;
+  }
+  footer {
+    text-align: center;
+  }
+}
